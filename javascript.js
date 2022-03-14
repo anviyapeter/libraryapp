@@ -81,7 +81,8 @@ function changeBook(e) {
   }
 }
 
-class Book {
+class Book 
+{
     constructor(
       title = "Unknown",
       author = "Unknown",

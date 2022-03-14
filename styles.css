@@ -15,7 +15,8 @@
  {
      $.backstretch('show' , id);
  }
- .header {
+ .header 
+ {
     display: flex;
     width: 100vmin;
     flex-wrap: wrap;

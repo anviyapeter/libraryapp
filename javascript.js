@@ -29,7 +29,8 @@ for (var i = 0; i < readStatusElement.length; i++) {
 */
 let myLibrary = [];
 
-function getBookFromInput(book) {
+function getBookFromInput(book) 
+{
   let title = document.getElementById('formTitle').value;
   let author = document.getElementById('formAuthor').value;
   let pages = document.getElementById('formPages').value;

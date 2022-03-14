@@ -5,7 +5,8 @@
 
      $.backstretch(bgImgs, {duration: 2000, fade: 1000});
 
-     if(!autoplay) {
+     if(!autoplay) 
+     {
          $.backstretch('pause');
      }
  }

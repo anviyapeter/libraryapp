@@ -9,7 +9,8 @@
          $.backstretch('pause');
      }
  }
- const setBg = id => {
+ const setBg = id => 
+ {
      $.backstretch('show' , id);
  }
  .header {

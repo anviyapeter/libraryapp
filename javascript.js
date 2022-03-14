@@ -47,8 +47,10 @@ function addBook(book) {
   document.getElementById("form").reset();
 }
 
-function resetCards() {
-  while(container.firstChild) {
+function resetCards()
+ {
+  while(container.firstChild) 
+  {
     container.removeChild(container.lastChild);
   }
   myLibrary = [];

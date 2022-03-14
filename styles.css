@@ -1,4 +1,5 @@
- const initBg = (autoplay = true) =.{
+ const initBg = (autoplay = true) =.
+ {
      let path = "/.images/";
      const bgImgsNames = ['bg1.jpg'];
      const bgImgs = bgImgsNames.map (img => path + img );

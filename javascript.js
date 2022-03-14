@@ -39,7 +39,8 @@ function getBookFromInput(book)
 }
 
 
-function addBook(book) {
+function addBook(book) 
+{
   let newBook = getBookFromInput(book);
   addBookToLibrary(newBook);
   displayBooks()
